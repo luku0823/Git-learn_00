@@ -1,3 +1,29 @@
-안녕하세요
+Git 설치 및 사용법 익히기
 
-연습중입니다 ^^ 
+명령프롬포트 실행
+
+git - git 		명령어 출력
+
+git --version 	(git버젼)
+
+git config --global (컴퓨터 전체에서 동일한 옵션 github 환경설정)
+
+git config --global user.name luku0823 <- (자신의 깃허브 계정넣어주기)
+
+git config --global user.email luku0823@gmail.com <-(이메일 넣어주기)
+
+cd C:\Github folder        <- (change directory 자신의 폴더로 이동)
+C:\ Github folder>
+
+git clone https://github.com/luku0823/PHP_school_memo1.git <-(저장소에 있는 모든파일들이 내파일로 다운로드됨)
+git폴더생성
+
+cd Github folder
+
+git add document.txt.txt <- (만든 텍스트파일 추가)
+
+git commit -m "Add Text File [document.txt.txt]"  <- (커밋을 진행함으로써, 실제로 파일이 업로드된가 된 그 시점을 마치 스냅샷처럼 찍어놓을수있어서  프로젝트가 문제가 있을때 원상태로 복구할때 등의 목적으로 사용할 수 있음) 
+
+git push ( github에 푸시해서 실제로 넣을수 있음)
+
+git clean -fd (디렉터리 지울수있음)
